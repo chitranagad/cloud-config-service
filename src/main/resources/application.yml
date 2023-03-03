@@ -1,0 +1,24 @@
+  
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          username: chitranagad
+          password: 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
+          uri: https://github.com/chitranagad/cloud-config-server.git
+          skip-ssl-validation: true
+    
+server:
+  port: 9092
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: localhost
