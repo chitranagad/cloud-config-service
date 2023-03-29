@@ -7,7 +7,7 @@ spring:
       server:
         git:
           username: chitranagad
-          password: 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
+          password: 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
           uri: https://github.com/chitranagad/cloud-config-server.git
           skip-ssl-validation: true
     
